@@ -1,4 +1,7 @@
-
+*{
+	padding:0;
+	margin:0;
+}
 
 body{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	margin-bottom:0px;
@@ -64,7 +67,8 @@ strong{
 blockquote{
 	background: url(bq.gif) no-repeat top left;
 	padding:0 0 0 60px;
-	min-height: 50px
+	min-height:50px;
+
 	
 }
 
@@ -81,6 +85,12 @@ p{
 ol{font-size:20px;
 	line-height:28px;
 	
+}
+
+.form{font-size: 26px; 
+	margin-top: 20px;
+	font-size: 26px; 
+	max-width: none;
 
 }
 
